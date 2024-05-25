@@ -122,6 +122,7 @@
   left: 28px;
   width: 32px;
   overflow: hidden;
+  object-fit: cover;
 }
 .frame4 {
   top: 11px;
@@ -276,6 +277,7 @@
   width: 32px;
   height: 32px;
   overflow: hidden;
+  object-fit: cover;
 }
 .frame11,
 .frame12 {
@@ -332,13 +334,23 @@
   height: 65px;
   mix-blend-mode: darken;
 }
-.frame-icon {
+.frame15,
+.interface-essential-informatio-icon {
   position: absolute;
+  top: 0;
+  left: 9px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.frame15 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
   top: 11px;
   left: 0;
   width: 41px;
-  height: 32px;
-  overflow: hidden;
 }
 .footer,
 .frame14,
@@ -403,7 +415,7 @@
   background-repeat: no-repeat;
   background-position: top;
 }
-.frame17 {
+.frame18 {
   position: absolute;
   top: 0;
   left: 11px;
@@ -452,11 +464,11 @@
   background-position: top;
 }
 .electricity,
-.frame18 {
+.frame19 {
   position: absolute;
   top: 0;
 }
-.frame18 {
+.frame19 {
   left: 11px;
   width: 57px;
   height: 24px;
@@ -469,7 +481,7 @@
   text-align: left;
   color: #000;
 }
-.frame16 {
+.frame17 {
   position: absolute;
   top: 103px;
   left: 9px;
@@ -494,9 +506,9 @@
   height: 68%;
   width: 20.99%;
   top: 16%;
-  right: 79.01%;
+  right: 76.54%;
   bottom: 16%;
-  left: 0;
+  left: 2.47%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -505,31 +517,31 @@
 .div2 {
   position: absolute;
   top: 0;
-  left: 20px;
+  left: 26px;
   display: flex;
   align-items: center;
-  width: 61px;
+  width: 55px;
   height: 25px;
 }
 .vector-icon2 {
   position: absolute;
   height: 28%;
   width: 8.64%;
-  top: 38.4%;
-  right: 85.19%;
-  bottom: 33.6%;
-  left: 6.17%;
+  top: 36%;
+  right: 82.72%;
+  bottom: 36%;
+  left: 8.64%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
 }
-.frame21,
+.frame22,
 .tonbalance {
   position: absolute;
   height: 25px;
 }
-.frame21 {
+.frame22 {
   top: 0;
   left: 9px;
   width: 81px;
@@ -541,13 +553,13 @@
   width: 90px;
 }
 .exos-balance-child,
-.frame20 {
+.frame21 {
   position: absolute;
   top: 0;
   left: 0;
   width: 90px;
 }
-.frame20 {
+.frame21 {
   height: 56px;
   overflow: hidden;
 }
@@ -578,7 +590,7 @@
   overflow: hidden;
   object-fit: cover;
 }
-.frame24 {
+.frame25 {
   position: absolute;
   top: 1px;
   left: 5px;
@@ -587,7 +599,7 @@
   overflow: hidden;
 }
 .exos-balance,
-.frame23 {
+.frame24 {
   position: absolute;
   width: 90px;
 }
@@ -600,7 +612,7 @@
   left: 0;
   height: 25px;
 }
-.frame23 {
+.frame24 {
   top: 0;
   left: 160px;
   height: 56px;
@@ -614,7 +626,7 @@
   height: 67px;
   object-fit: cover;
 }
-.frame25,
+.frame26,
 .level-1 {
   position: absolute;
   width: 45px;
@@ -628,13 +640,13 @@
   font-family: inherit;
   display: inline-block;
 }
-.frame25 {
+.frame26 {
   top: 0;
   left: 57px;
   height: 49px;
   overflow: hidden;
 }
-.frame22,
+.frame23,
 .hmara {
   top: 0;
   height: 67px;
@@ -644,19 +656,19 @@
   left: 0;
   width: 158px;
 }
-.frame22 {
+.frame23 {
   left: 97px;
   width: 250px;
   color: var(--color-white);
   font-family: var(--font-jockey-one);
 }
-.frame19,
-.frame22,
+.frame20,
+.frame23,
 .header {
   position: absolute;
   overflow: hidden;
 }
-.frame19 {
+.frame20 {
   top: 18px;
   left: 9px;
   width: 347px;
@@ -677,14 +689,14 @@
   width: 362px;
   height: 158px;
 }
-.frame15 {
+.frame16 {
   text-align: center;
   font-size: var(--font-size-xl);
   color: var(--color-cornflowerblue);
   font-family: var(--font-karantina);
 }
 .frame,
-.frame15 {
+.frame16 {
   position: absolute;
   top: 0;
   left: 0;
