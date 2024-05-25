@@ -7,6 +7,8 @@ body {
   /* fonts */
   --font-jockey-one: "Jockey One";
   --font-karantina: Karantina;
+  --font-itim: Itim;
+  --font-inter: Inter;
 
   /* font sizes */
   --font-size-6xs: 7px;
@@ -14,10 +16,12 @@ body {
   --font-size-xl: 20px;
 
   /* Colors */
-  --color-darkslateblue-100: #202660;
-  --color-gainsboro: #d9d9d9;
+  --color-darkslateblue: #2e378c;
   --color-gray: #7e7e7e;
+  --color-gainsboro: #d9d9d9;
+  --color-white: #fff;
   --color-cornflowerblue: #79aefe;
+  --color-midnightblue: #192061;
 
   /* Border radiuses */
   --br-11xl: 30px;
