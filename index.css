@@ -2,8 +2,8 @@
   position: absolute;
   top: 103px;
   left: 82px;
-  width: 365px;
-  height: 799px;
+  width: 400px;
+  height: 100vh;
   background-image: url(./public/photo-20240522-114331-1@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -357,7 +357,7 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 9px;
   width: 32px;
   height: 32px;
@@ -385,8 +385,9 @@
   left: 288px;
 }
 .footer {
-  top: 735px;
-  left: 0;
+  top: 80%;
+  bottom: 10%;
+  left: 10px;
   border-radius: 35px;
   background-color: #414141;
   width: 360px;
@@ -399,9 +400,10 @@
   top: 0;
   left: 0;
   border-radius: var(--br-3xs);
-  background-color: var(--color-midnightblue);
-  width: 152px;
-  height: 26px;
+  background-color: #07ADBA;
+  width: 30%;
+  height: 27px;
+
 }
 .div,
 .gpus-child,
@@ -443,6 +445,8 @@
   left: 194px;
   width: 152px;
   height: 27px;
+  border-radius: var(--br-3xs);
+  background-color : var(--color-midnightblue);
 }
 .div1,
 .electricity-1,
@@ -702,33 +706,35 @@
   background-color: var(--color-darkslateblue);
   border: 1px solid rgba(255, 211, 0, 0.8);
   box-sizing: border-box;
-  width: 362px;
+  width: 100%;
   height: 158px;
 }
 .frame16 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 360px;
+  width: 100%;
   text-align: center;
   font-size: var(--font-size-xl);
-  color: var(--color-cornflowerblue);
+  color: black;
   font-family: var(--font-karantina);
 }
+
 .frame,
 .frame16,
 .iphone-14-15-pro-1 {
-  height: 800px;
-  overflow: hidden;
+  text-align: center ;
+  height: 100vh;
+  left : 10px overflow hidden;
 }
 .frame {
   position: absolute;
   top: 0;
   left: 0;
-  width: 360px;
+  width: 400px;
 }
 .iphone-14-15-pro-1 {
-  width: 100%;
+  width: 100vw;
   position: relative;
   background-color: var(--color-darkslateblue);
 }
